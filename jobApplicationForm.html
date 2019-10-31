@@ -12,18 +12,26 @@
 
 	<fieldset>
 		<legend>Account</legend>
-		<div class="field">
-			<label>Email:</label> 
-			<input type="text" name="email">
-		</div>
-		<div class="field">
-			<label>Password:</label> 
-			<input type="password" name="password">
-		</div>
-		<div class="field">
-			<label>Repeat password:</label> 
-			<input type="password" name="password_r">
-		</div>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <form action="/action_page.php">
+            <div class="input-container">
+              <i class="fa fa-user icon"></i>
+              <input class="input-field" type="text" placeholder="Username" name="usrnm">
+            </div>
+          
+            <div class="input-container">
+              <i class="fa fa-envelope icon"></i>
+              <input class="input-field" type="text" placeholder="Email" name="email">
+            </div>
+          
+            <div class="input-container">
+              <i class="fa fa-key icon"></i>
+              <input class="input-field" type="password" placeholder="Password" name="psw">
+            </div>
+          
+            <button type="submit" class="btn">Register</button>
+          </form>
 	</fieldset>
 
 	<fieldset>
